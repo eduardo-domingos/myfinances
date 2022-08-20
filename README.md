@@ -16,3 +16,16 @@ Web Site para gerenciar suas financias
 * HTML5
 * CSS3
 * JavaScript
+
+# Utilização/Instalação
+
+1. Para executar o projeto necessário ter o ambiente para desenvolvimento configurado, no windows temos o WAMP/XAMPP, em distribuições Linux temos o LAMP/XAMPP
+
+2. Para o .htaccess funcionar é necessário habilitar a reescrita (**mod_rewrite**) do apache
+
+3. Para instalar as dependências do composer é necessário navegar até a pasta do projeto, por meio do terminal e executar o comando: 
+~~~
+composer install
+~~~
+
+4. Se o composer apresentar alguma mensagem de erro, provavelmente algum módulo do arquivo php.ini precise ser descomentado
