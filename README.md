@@ -29,3 +29,6 @@ composer install
 ~~~
 
 4. Se o composer apresentar alguma mensagem de erro, provavelmente algum módulo do arquivo php.ini precise ser descomentado
+
+# Projeto em Andamento
+Por enquanto o projeto só possuí a estrutura base, as demais funcionalidades serão adicionadas ao decorrer do tempo
