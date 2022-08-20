@@ -1,0 +1,6 @@
+App/env/.env
+App/Logs/*.log
+Doc/
+vendor/
+nbproject/
+composer.lock
