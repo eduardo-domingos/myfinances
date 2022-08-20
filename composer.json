@@ -1,7 +1,11 @@
 {
     "name": "eduardo/myfinances",
-    "description": "Aplicação para gerenciar seus gastos no mês",
-    "license": "private",
+    "description": "Aplicação para gerenciar suas finâncias",
+    "type": "project",
+    "require": {
+        "php": ">=8.1"
+    },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "App\\": "App/"
@@ -9,8 +13,8 @@
     },
     "authors": [
         {
-            "name": "Eduardo"
+            "name": "Eduardo Domingos"
         }
     ],
-    "require": {}
+    "minimum-stability": "stable"
 }

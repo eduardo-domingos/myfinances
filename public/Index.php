@@ -1,7 +1,6 @@
 <?php
     require __DIR__.'/../App/includes/app.php';
 ?>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
@@ -14,7 +13,9 @@
         
         <?php
             require __DIR__.'/../App/Views/template/header.php';
-            //$router = new App\Libraries\Router();
+            
+            $router = new App\Libraries\Router();
+            
             require __DIR__.'/../App/Views/template/footer.php';
         ?>
         
