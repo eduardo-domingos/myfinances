@@ -4,11 +4,14 @@ Web Site para gerenciar suas financias
 # Recursos
 * Estrutura MVC
 * PHP Orientado a Objetos
+* PDO
 * Composer (autoload)
 * configurações para URL e para não listar os arquivos nas pastas (.htaccess)
 * URL amigável (controller/method/params)
 * Geração de logs com erros e avisos do php
 * Carrega as credênciais do banco de dados em arquivos .env
+* Proteção contra XSS
+* Proteção contra SQL INJECTION
 
 # Tecnologias Utilizadas
 * PHP   => 8.1.6
