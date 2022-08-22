@@ -1,6 +1,7 @@
 App/env/.env
 App/Logs/*.log
-Doc/
+Doc/*.mwb
+Doc/*.mwb.bak
 vendor/
 nbproject/
 composer.lock
