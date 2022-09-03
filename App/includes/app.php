@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__.'/../../App/constants/constants.php';
+require __DIR__.'/../../App/config/constants.php';
 
 require __DIR__.'/../../App/debug/phpError.php';
 

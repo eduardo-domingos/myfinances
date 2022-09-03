@@ -12,7 +12,7 @@ define('APP', dirname(__FILE__));
 /**
  * URL do Site
  */
-define('URL', 'http://localhost/myfinances/');
+define('URL', 'http://localhost/myfinances');
 
 /**
  * Nome do Site
