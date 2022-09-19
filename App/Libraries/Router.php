@@ -29,16 +29,10 @@ class Router
     public function __construct() 
     {
         $url = $this->parseUrl() ?? [0];
-        
-        if(isset($url[0]) && $url[0] === 'api' && count($url) >= 2){
-        
-        }
-        
         $this->setControllerUrl($url);
         $this->setMethodUrl($url);
         $this->setParamsUrl($url);
         $this->run();
-       
     }
     
     /**
